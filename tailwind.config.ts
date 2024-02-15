@@ -8,22 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      gridTemplateColumns: {
-        '13': 'repeat(13, minmax(0, 1fr))',
-      },
       colors: {
         blue: {
           400: '#2589FE',
           500: '#0070F3',
           600: '#2F6FEB',
         },
-      },
-    },
-    keyframes: {
-      shimmer: {
-        '100%': {
-          transform: 'translateX(100%)',
-        },
+        'custom-brown1': '#8C6428',
+        'custom-brown2': '#B58D52',
+        'custom-blue1': '#0F3174',
+        'custom-blue2': '#2F549C',
       },
     },
   },
